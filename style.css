@@ -1,0 +1,236 @@
+*{box-sizing: border-box;}
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 0 8px;
+}
+
+.header {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.first-part-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 64px;
+    cursor: pointer;
+}
+
+.second-part-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.feature-menu {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.discover-menu {
+    display: flex;
+    list-style: none;
+}
+
+.icons-container {
+    margin-left: 28px;
+}
+
+.icons-container > img {
+    padding: 7.4px;
+}
+
+.hero-section {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.feature-section {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.feature-section-title-container {
+    text-align: center;
+}
+
+.feature-titles {
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.feature-rows-container {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+    gap: 24px;
+}
+
+.second-row {
+    display: flex;
+    gap: 24px;
+}
+.all-offers {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 12px;
+    padding-bottom: 7.06px;
+    padding-top: 6px;
+}
+
+.card {
+    width: 33.33%;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card > img {
+    mix-blend-mode: multiply;
+}
+
+.second-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 350px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.second-section > img{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+.second-section-title{
+
+    display: inline-block;
+    text-align: center;
+    max-width: 1440px;
+    height: 100%;
+    padding: 80px 88px;
+}
+.third-section-title{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+}
+.third-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 1440px;
+    display: inline-block;
+}
+
+.fourth-section {
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 24px;
+    }
+    
+.text-container {
+    padding: 24px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    }
+    
+.text2 > button {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 24px 11px 24px;
+    }
+.footer{
+    max-width: 1440px;
+    border-top: solid;
+    border-bottom: solid;
+    border-bottom-color: rgb(217, 217, 217);
+    border-top-color:rgb(217, 217, 217) ;
+    border-top-width: 1px;
+    display:inline-block;
+    font-family: Arial, sans-serif;
+    line-height: 18.4px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size-adjust: 100%;
+    vertical-align: top;
+}
+.column1{
+    float: left;
+    border-right: solid;
+    border-color:rgb(217, 217, 217) ;
+    list-style: none;
+    font-size: 14px;
+    padding-left: 24px;
+}
+.column2{
+    width: 25%;
+    border-right: solid;
+    border-color:rgb(217, 217, 217);
+    list-style-type: none;
+    font-size: 14px;
+    padding-left: 24px;
+}
+.column3{
+    width: 25%;
+    list-style-type: none;
+    font-size: 14px;
+    padding-left: 24px;
+}
+.column4{
+    width: 25%;
+    border-left: solid;
+    border-color:rgb(217, 217, 217);
+    list-style-type: none;
+    font-size: 14px;
+    padding-left: 24px;
+}
+.row{
+    display: flex;
+}
